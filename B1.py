@@ -82,15 +82,14 @@ graph.add((lab2.handles, RDFS.range, lab2.Journal))
 graph.add((lab2.handles, RDFS.label, Literal("handles")))
 
 # Chair
-graph.add((lab2.Editor, RDF.type, RDFS.Class))
-graph.add((lab2.Editor, RDFS.subClassOf, lab2.Person))
-graph.add((lab2.Editor, RDFS.label, Literal("Chair")))
+graph.add((lab2.Chair, RDF.type, RDFS.Class))
+graph.add((lab2.Chair, RDFS.subClassOf, lab2.Person))
+graph.add((lab2.Chair, RDFS.label, Literal("Chair")))
 
 graph.add((lab2.manages, RDF.type, RDF.Property))
 graph.add((lab2.manages, RDFS.domain, lab2.Chair))
 graph.add((lab2.manages, RDFS.range, lab2.Conference))
 graph.add((lab2.manages, RDFS.label, Literal("manages")))
-
 
 # Venue Superclass
 graph.add((lab2.Venue, RDF.type, RDFS.Class))
@@ -102,14 +101,14 @@ graph.add((lab2.Conference, RDF.type, RDFS.Class))
 graph.add((lab2.Conference, RDFS.subClassOf, lab2.Venue))
 graph.add((lab2.Conference, RDFS.label, Literal("Conference")))
 
-graph.add((lab2.conferenceTitle, RDF.type, RDF.Property))
-graph.add((lab2.conferenceTitle, RDFS.domain, lab2.Conference))
-graph.add((lab2.conferenceTitle, RDFS.range, XSD.string))
-graph.add((lab2.conferenceTitle, RDFS.label, Literal("conferenceTitle")))
+graph.add((lab2.confTitle, RDF.type, RDF.Property))
+graph.add((lab2.confTitle, RDFS.domain, lab2.Conference))
+graph.add((lab2.confTitle, RDFS.range, XSD.string))
+graph.add((lab2.confTitle, RDFS.label, Literal("confTitle")))
 
 graph.add((lab2.inProc, RDF.type, RDF.Property))
 graph.add((lab2.inProc, RDFS.domain, lab2.Conference))
-graph.add((lab2.inProc, RDFS.range, lab2.Proceedings))
+graph.add((lab2.inProc, RDFS.range, lab2.Proceeding))
 graph.add((lab2.inProc, RDFS.label, Literal("inProc")))
 
 # SubClasses of Conference
@@ -133,10 +132,10 @@ graph.add((lab2.journalTitle, RDFS.domain, lab2.Journal))
 graph.add((lab2.journalTitle, RDFS.range, XSD.string))
 graph.add((lab2.journalTitle, RDFS.label, Literal("journalTitle")))
 
-graph.add((lab2.isOf, RDF.type, RDF.Property))
-graph.add((lab2.isOf, RDFS.domain, lab2.Journal))
-graph.add((lab2.isOf, RDFS.range, lab2.Volume))
-graph.add((lab2.isOf, RDFS.label, Literal("inVol")))
+graph.add((lab2.inVol, RDF.type, RDF.Property))
+graph.add((lab2.inVol, RDFS.domain, lab2.Journal))
+graph.add((lab2.inVol, RDFS.range, lab2.Volume))
+graph.add((lab2.inVol, RDFS.label, Literal("inVol")))
 
 
 # Proceeding Class
@@ -144,7 +143,7 @@ graph.add((lab2.Proceeding, RDF.type, RDFS.Class))
 graph.add((lab2.Proceeding, RDFS.label, Literal("Proceeding")))
 
 graph.add((lab2.procName, RDF.type, RDF.Property))
-graph.add((lab2.procName, RDFS.domain, lab2.Proceedings))
+graph.add((lab2.procName, RDFS.domain, lab2.Proceeding))
 graph.add((lab2.procName, RDFS.range, XSD.string))
 graph.add((lab2.procName, RDFS.label, Literal("procName")))	
 
@@ -163,15 +162,15 @@ graph.add((lab2.Volume, RDF.type, RDFS.Class))
 graph.add((lab2.Volume, RDFS.label, Literal("Volume")))
 
 # Adding properties for volume
-graph.add((lab2.volumeName, RDF.type, RDF.Property))
-graph.add((lab2.volumeName, RDFS.domain, lab2.Volume))
-graph.add((lab2.volumeName, RDFS.range, XSD.string))
-graph.add((lab2.volumeName, RDFS.label, Literal("volName")))	
+graph.add((lab2.volName, RDF.type, RDF.Property))
+graph.add((lab2.volName, RDFS.domain, lab2.Volume))
+graph.add((lab2.volName, RDFS.range, XSD.string))
+graph.add((lab2.volName, RDFS.label, Literal("volName")))	
 
-graph.add((lab2.volumeYear, RDF.type, RDF.Property))
-graph.add((lab2.volumeYear, RDFS.domain, lab2.Volume))
-graph.add((lab2.volumeYear, RDFS.range, XSD.int))
-graph.add((lab2.volumeYear, RDFS.label, Literal("volYear")))
+graph.add((lab2.volYear, RDF.type, RDF.Property))
+graph.add((lab2.volYear, RDFS.domain, lab2.Volume))
+graph.add((lab2.volYear, RDFS.range, XSD.int))
+graph.add((lab2.volYear, RDFS.label, Literal("volYear")))
 
 graph.add((lab2.hasVolDomain, RDF.type, RDF.Property))
 graph.add((lab2.hasVolDomain, RDFS.domain, lab2.Volume))
@@ -181,12 +180,12 @@ graph.add((lab2.hasVolDomain, RDFS.label, Literal("hasVolDomain")))
 
 # Domain Class
 graph.add((lab2.Domain, RDF.type, RDFS.Class))
-graph.add((lab2.Domain, RDFS.label, Literal("SubjectDomain")))
+graph.add((lab2.Domain, RDFS.label, Literal("Domain")))
 
-graph.add((lab2.keywords, RDF.type, RDF.Property))
-graph.add((lab2.keywords, RDFS.domain, lab2.Domain))
-graph.add((lab2.keywords, RDFS.range, XSD.string))
-graph.add((lab2.keywords, RDFS.label, Literal("keywords")))
+graph.add((lab2.domainName, RDF.type, RDF.Property))
+graph.add((lab2.domainName, RDFS.domain, lab2.Domain))
+graph.add((lab2.domainName, RDFS.range, XSD.string))
+graph.add((lab2.domainName, RDFS.label, Literal("domainName")))
 
 
 # Review Class

@@ -1,0 +1,116 @@
+conferenceId,conferenceUrl,conferenceTitle,conferenceType,conferenceProceedingIds
+c0,b55b50b1-aae7-47a7-b042-8aecc930073d,International Conference on Human Factors in Computing Systems,workshop,cp0
+c1,2c9ecac6-f875-4a9b-acc2-10bd9f6782df,Technical Symposium on Computer Science Education,mainConference,cp1
+c2,c85dfc25-bcef-4719-9997-f41ad334d998,International Symposium on Intelligent Data Analysis,workshop,cp2
+c3,a88140cf-3ca8-46c2-b1f7-446f137cf336,Frontiers in Education Conference,mainConference,cp3
+c4,d732841e-83f9-49ec-95ca-389e5568634b,Annual Conference on Genetic and Evolutionary Computation,mainConference,cp4
+c5,9c1ac4fb-5b0d-4c77-8dd9-fb9b7375be4d,IEEE Symposium on Visual Languages / Human-Centric Computing Languages and Environments,workshop,cp5
+c6,42b29bb0-699b-4502-8619-053ee5448d54,Americas Conference on Information Systems,mainConference,cp6
+c7,16e8a264-580d-4f0b-ac5a-bba591b2d18d,European Conference on Modelling and Simulation,mainConference,cp7
+c8,d22e4663-ebe7-4164-9230-8ad579a735a1,The Compass,mainConference,cp8
+c9,bf8c915b-282b-4817-987d-62e47e42d5e1,Pacific Symposium on Biocomputing,mainConference,cp9
+c10,07ba6a02-fa13-4c5f-b428-795730d75e53,Big Data,mainConference,cp10
+c11,d8ec66ab-0083-4a4d-bf44-ce85d2daad69,Hawaii International Conference on System Sciences,mainConference,cp11
+c12,070a8b94-9234-4a39-bff0-23e0c6b74464,International Conference on Statistical and Scientific Database Management,mainConference,cp12
+c13,770f1d88-52c2-43dc-a897-6881e70b2f32,International Conference on Data Science and Advanced Analytics,mainConference,cp13
+c14,440bcee8-1bdc-4957-a227-182d81a49740,International Conference on Exploring Services Science,workshop,cp14
+c15,46990654-eb6c-4674-96bc-ba905dab2a86,International Conference on Conceptual Structures,mainConference,cp15
+c16,a0edb93b-1e95-4128-a295-6b1659149cef,Knowledge Discovery and Data Mining,mainConference,cp16
+c17,4a8bbf74-8b02-49b1-ad58-836790bbc79f,International Conference on Enterprise Information Systems,workshop,cp17
+c18,528ced1f-e949-4e1a-8fee-2ffbf0be551d,Conference on Innovative Data Systems Research,mainConference,cp18
+c19,3c2dd17d-6c11-4bb6-9d01-1fc2064cb8df,ACM Conference on Economics and Computation,mainConference,cp19
+c20,84cc6785-24f2-48e0-a7a0-e2c86d22239d,Research Conference of the South African Institute of Computer Scientists and Information Technologists,mainConference,cp20
+c21,e4e999b7-2be0-4bd0-ad3b-7afd3fe50a4d,Grid Computing Environments,mainConference,cp21
+c22,dea8d7a8-c89e-4de9-bde3-0787594a055f,International Conference on Data Technologies and Applications,mainConference,cp22
+c23,14d0272a-18b8-4a25-834b-cf3b120b226f,International Conference on Open and Big Data,workshop,cp23
+c24,9c119da6-ab17-4403-854e-786882dbf352,Decision Support Systems,mainConference,cp24
+c25,3bc59e53-8413-4f2a-b739-d2b155898833,International Conference on Contemporary Computing,mainConference,cp25
+c26,44350957-4538-46db-9957-ea88ec69a126,PS,mainConference,cp26
+c27,5545566b-c0b8-418c-83a5-a986a4657572,ACM-SIAM Symposium on Discrete Algorithms,mainConference,cp27
+c28,60b80922-affe-43da-9644-a58a8d98c1de,International Conference on Collaboration Technologies and Systems,workshop,cp28
+c29,a36dc29e-4ea1-4567-b0fe-1c06daf8bee8,International Conference on Software Engineering,mainConference,cp29
+c30,5f087f3f-d96b-4da6-8049-604ac2349c44,IEEE Aerospace Conference,workshop,cp30
+c31,b24455f0-c8b2-4062-8397-1dc279bf6407,International Conference on Evaluation & Assessment in Software Engineering,mainConference,cp31
+c32,4a63d235-b8de-41aa-b5f7-b28efb66f736,International Conference on Software Technology: Methods and Tools,mainConference,cp32
+c33,75ef5c3a-ff34-47cf-bfce-93c95be12dbc,International Conference on Agile Software Development,mainConference,cp33
+c34,d7907408-25bc-4816-a81d-4e0f2f6482c8,IEEE Working Conference on Mining Software Repositories,workshop,cp34
+c35,73df6053-f5c6-46a6-aefc-8a109c2edd9d,EUROMICRO Conference on Software Engineering and Advanced Applications,mainConference,cp35
+c36,b4e3823a-0399-4dd3-9c4a-4d71630488df,Conference on Software Engineering Education and Training,mainConference,cp36
+c37,8bcdbd50-f829-4fb4-ab17-bf6bffa1c5a5,Asia-Pacific Software Engineering Conference,mainConference,cp37
+c38,d8655d54-1311-417a-91f7-c5c6daf8fba2,"IEEE International Conference on Software Analysis, Evolution, and Reengineering",mainConference,cp38
+c39,1a10675c-27fc-4adb-a1e9-5d2c6e4ab2b2,International Conference on Global Software Engineering,mainConference,cp39
+c40,b02cf974-33be-46bd-9cbc-022db6cb7151,IEEE International Conference on Software Maintenance and Evolution,mainConference,cp40
+c41,024e52c4-afc1-4fb0-bd00-b6cee83d5078,Software Product Lines Conference,mainConference,cp41
+c42,f2e4c9ec-928d-4753-9670-3d8d697d884c,Joint Conference of International Workshop on Software Measurement and International Conference on Software Process and Product Measurement,mainConference,cp42
+c43,d80d58be-58fc-4181-a397-5ac6fd976a47,ACM Symposium on Applied Computing,mainConference,cp43
+c44,f79f1a50-a0fc-4ebc-bcb2-eacde9097cf6,International Workshop on Green and Sustainable Software,mainConference,cp44
+c45,31c33453-53a3-4cfe-ac36-45a59be18d0c,"IEEE/ACM International Conference on Connected Health: Applications, Systems and Engineering Technologies",mainConference,cp45
+c46,24d0f36f-58ab-4957-adaa-50ca6e4a969e,Brazilian Symposium on Software Engineering,mainConference,cp46
+c47,9d988347-1c3c-4cf9-9b6f-d15117510bf4,International Symposium on Empirical Software Engineering and Measurement,workshop,cp47
+c48,82901c74-dc2e-4d08-b633-637c7e209284,"Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",workshop,cp48
+c49,9731af5c-6695-4c2a-b6b6-05100fe3e3fd,International Symposium on Search Based Software Engineering,mainConference,cp49
+c50,1c2ab05c-7d69-465e-929d-0920857aedce,International Conference on Automated Software Engineering,mainConference,cp50
+c51,ca2cf7d7-0fd9-4338-b72f-48b0a5d6412c,Conference of the Centre for Advanced Studies on Collaborative Research,mainConference,cp51
+c52,bcd68420-ac01-430f-9e9d-3fc97a84e386,Workshop on Learning from Authoritative Security Experiment Results,workshop,cp52
+c53,336e2706-61ed-4bc5-97a6-3df713fc01c2,International Conference on Software Engineering and Knowledge Engineering,workshop,cp53
+c54,c32854ee-c56b-4ecc-9c6f-c2d1f9acf480,International Workshop on Agent-Oriented Software Engineering,mainConference,cp54
+c55,08dc4d22-5892-4b5b-866b-4c66f3bae04c,Annual Workshop of the Psychology of Programming Interest Group,mainConference,cp55
+c56,e1e5d628-9ed7-43a8-a0bf-eaada8f74e50,European Conference on Software Process Improvement,workshop,cp56
+c57,0e6e8f0a-455b-4be7-9d4c-5d6f93bd25a8,IEEE International Conference on Engineering of Complex Computer Systems,mainConference,cp57
+c58,d5c81521-9f67-4e2e-8576-0b5e0c068bf6,Australian Software Engineering Conference,workshop,cp58
+c59,867269c0-6c7e-4ad4-8ba2-fb534593c564,British Computer Society Conference on Human-Computer Interaction,mainConference,cp59
+c60,2b17e04f-6588-4d0a-b1d7-1b841ffeee10,IEEE International Conference on Software Engineering and Formal Methods,mainConference,cp60
+c61,5ffb3a6b-d9c2-4933-9e8a-3bb56f28eecf,Jahrestagung der Gesellschaft für Informatik,mainConference,cp61
+c62,4a46fb6f-28f3-44cf-901d-6b04f65925d9,International Conference on Software Reuse,workshop,cp62
+c63,ad445883-8515-43dc-b3ff-225a898db935,IEEE International Software Metrics Symposium,mainConference,cp63
+c64,0dcf75d3-a29b-4614-a03b-c00a58aa06fa,Experimental Software Engineering Network,workshop,cp64
+c65,0c42128d-ccea-4745-87b8-2a03eac908cb,Formal Concept Analysis,mainConference,cp65
+c66,e82485bc-2195-4cf5-9f9a-012501918b2f,Annual Conference on Innovation and Technology in Computer Science Education,mainConference,cp66
+c67,465b58df-4a83-4778-973a-a4201b57daa4,Enterprise Application Integration,mainConference,cp67
+c68,e663f203-9739-4eda-8e15-ab58a83e4bc8,International Workshop on Software Engineering for Large-Scale Multi-Agent Systems,mainConference,cp68
+c69,29df4b17-9a16-4a4c-94a6-002f52e628b4,International Conference on Parallel Processing,mainConference,cp69
+c70,551c612b-e5be-49e2-9063-380cc52ee187,International Conference on Intelligent Robotics and Applications,workshop,cp70
+c71,9ec28b59-afd2-4d10-9a97-44d984123c30,IEEE International Conference on Information Reuse and Integration,mainConference,cp71
+c72,9d3979be-d38e-4ba6-8e93-ce5332aa70ce,Intelligent Systems in Molecular Biology,mainConference,cp72
+c73,f00743e8-9418-493d-9c35-af74f28884ce,Workshop on Algorithms in Bioinformatics,mainConference,cp73
+c74,ba1e9488-a629-4abe-a0c2-ec2c79c91616,IEEE International Conference on Tools with Artificial Intelligence,mainConference,cp74
+c75,fc0a208c-acb7-47dc-a0d4-af8190e21d29,International Conference on Machine Learning,mainConference,cp75
+c76,3e64b1c1-745f-4edf-bd92-b8ef122bb49c,International Conference on Artificial Neural Networks,mainConference,cp76
+c77,69d79d4c-49aa-4c2b-b616-80100a634f67,Networks,mainConference,cp77
+c78,d9720b90-d60b-48bc-9df8-87a30b9a60dd,Neural Information Processing Systems,mainConference,cp78
+c79,61a709e3-2060-423c-8de5-ffd3885aa31c,International Conference on Medical Image Computing and Computer-Assisted Intervention,mainConference,cp79
+c80,939c6e1d-0d17-4d6e-8a82-66d960df0e40,International Conference on Learning Representations,mainConference,cp80
+c81,68cf0e99-5164-4480-8ed4-8b8416a091df,IEEE Annual Symposium on Foundations of Computer Science,mainConference,cp81
+c82,f1660451-ee90-4350-a9aa-cd9063707d38,Workshop on Interdisciplinary Software Engineering Research,mainConference,cp82
+c83,cf6b5e76-9274-46e6-a2dd-7c190ec2ec5f,International Conference on Computer Graphics and Interactive Techniques,workshop,cp83
+c84,e07422f9-c065-40c3-a37b-75e98dce79fe,The Web Conference,mainConference,cp84
+c85,0ca4830a-5779-4a1f-8692-5eb621a6ef46,International Conference on Graph Transformation,workshop,cp85
+c86,f4989ee4-e1d2-45b4-85ad-c43a8ffef177,ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems,mainConference,cp86
+c87,167fa0ca-e88a-4ef7-a16f-bc66c457c806,European Conference on Computer Vision,workshop,cp87
+c88,8113a511-e0d9-4231-a1bc-0bf5d0212a4e,Symposium on the Theory of Computing,mainConference,cp88
+c89,f9af8000-42f8-410d-a622-e8811e41660a,Conference on Uncertainty in Artificial Intelligence,mainConference,cp89
+c90,768b87bb-8a18-4d9c-a161-4d483c776bcf,Computer Vision and Pattern Recognition,mainConference,cp90
+c91,a4c2d670-4470-4a8b-8692-1b2864d10542,Workshop on Algorithms and Models for the Web-Graph,mainConference,cp91
+c92,360102ae-d0fc-418b-ab3a-a517e390209c,Advances in Soft Computing,workshop,cp92
+c93,f8e3f8d0-0f40-48c0-b3c0-0c540237b859,Human Language Technology - The Baltic Perspectiv,mainConference,cp93
+c94,4144b5fb-0a80-4663-8ebf-80ca0c47231a,Vision,mainConference,cp94
+c95,7654260e-79f9-45c5-9663-d72027cf88f3,IEEE International Conference on Computer Vision,mainConference,cp95
+c96,86c43745-31d9-4c1a-b33f-ce3aa0042dbb,USENIX Symposium on Operating Systems Design and Implementation,mainConference,cp96
+c97,af90489e-312f-4514-bea2-bcb399cb8ece,Interspeech,mainConference,cp97
+c98,01103732-3808-4930-b8e4-7e9e68d5c68d,North American Chapter of the Association for Computational Linguistics,mainConference,cp98
+c99,d7d7587f-a1e9-46a4-9db5-54c95787c6f1,Annual International Conference of the IEEE Engineering in Medicine and Biology Society,workshop,cp99
+c100,f68b9e7e-ad3d-46cb-857d-23e49384143c,ACM SIGMOD Conference,mainConference,cp100
+c101,3978c4ee-3451-46b1-a92c-33686a0e8afe,International Conference on Automatic Face and Gesture Recognition,mainConference,cp101
+c102,c884b267-162e-4c75-916e-f7b80bf543f9,International Conference on Biometrics,mainConference,cp102
+c103,cce4d150-8211-4378-a9ef-a234ec19414c,ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing,mainConference,cp103
+c104,975e1529-a14b-436f-ad7e-a09d8eabc50d,IEEE International Conference on Multimedia and Expo,mainConference,cp104
+c105,f5a49005-d5b9-484b-801d-1a88308f9ca3,Biometrics and Identity Management,mainConference,cp105
+c106,486306ab-f860-4372-9544-62151e34ec3b,Chinese Conference on Biometric Recognition,mainConference,cp106
+c107,78a7fbcc-41c5-4258-b633-04b8637d4a9f,British Machine Vision Conference,mainConference,cp107
+c108,36345509-1ef5-40ea-8193-7b39cb132760,International Conference on Information Integration and Web-based Applications & Services,mainConference,cp108
+c109,187dde4a-2b59-491b-b6cf-1a8618878cdc,International Conference on Mobile Data Management,mainConference,cp109
+c110,b0c05768-6345-45d7-b541-235edf6ead54,IEEE International Conference on Automatic Face & Gesture Recognition,mainConference,cp110
+c111,cfc287e4-4c04-4848-ab16-633b33a61a09,International Society for Music Information Retrieval Conference,mainConference,cp111
+c112,a5c58053-0673-4cdb-b2b8-b6b0ad6911d1,Very Large Data Bases Conference,workshop,cp112
+c113,c89c0957-b21e-40c3-9e6c-0ab46adf1e53,International Conference on Image Analysis and Processing,mainConference,cp113
+c114,3f2626a8-9d78-42ca-9e0d-4b853b59cdcc,IEEE International Conference on Robotics and Automation,mainConference,cp114

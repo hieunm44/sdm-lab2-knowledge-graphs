@@ -2,182 +2,185 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://sdmlab3.org/Author> a rdfs:Class ;
+<http://sdmlab2.org/Author> a rdfs:Class ;
     rdfs:label "Author" ;
-    rdfs:subClassOf <http://sdmlab3.org/Person> .
+    rdfs:subClassOf <http://sdmlab2.org/Person> .
 
-<http://sdmlab3.org/Conference> a rdfs:Class ;
+<http://sdmlab2.org/Chair> a rdfs:Class ;
+    rdfs:label "Chair" ;
+    rdfs:subClassOf <http://sdmlab2.org/Person> .
+
+<http://sdmlab2.org/Conference> a rdfs:Class ;
     rdfs:label "Conference" ;
-    rdfs:subClassOf <http://sdmlab3.org/Venue> .
+    rdfs:subClassOf <http://sdmlab2.org/Venue> .
 
-<http://sdmlab3.org/Domain> a rdfs:Class ;
-    rdfs:label "SubjectDomain" .
+<http://sdmlab2.org/Domain> a rdfs:Class ;
+    rdfs:label "Domain" .
 
-<http://sdmlab3.org/Editor> a rdfs:Class ;
-    rdfs:label "Chair",
-        "Editor" ;
-    rdfs:subClassOf <http://sdmlab3.org/Person> .
+<http://sdmlab2.org/Editor> a rdfs:Class ;
+    rdfs:label "Editor" ;
+    rdfs:subClassOf <http://sdmlab2.org/Person> .
 
-<http://sdmlab3.org/FullPaper> a rdfs:Class ;
+<http://sdmlab2.org/FullPaper> a rdfs:Class ;
     rdfs:label "FullPaper" ;
-    rdfs:subClassOf <http://sdmlab3.org/Paper> .
+    rdfs:subClassOf <http://sdmlab2.org/Paper> .
 
-<http://sdmlab3.org/Journal> a rdfs:Class ;
+<http://sdmlab2.org/Journal> a rdfs:Class ;
     rdfs:label "Journal" ;
-    rdfs:subClassOf <http://sdmlab3.org/Venue> .
+    rdfs:subClassOf <http://sdmlab2.org/Venue> .
 
-<http://sdmlab3.org/MainConference> a rdfs:Class ;
+<http://sdmlab2.org/MainConference> a rdfs:Class ;
     rdfs:label "MainConference" ;
-    rdfs:subClassOf <http://sdmlab3.org/Conference> .
+    rdfs:subClassOf <http://sdmlab2.org/Conference> .
 
-<http://sdmlab3.org/Paper> a rdfs:Class ;
+<http://sdmlab2.org/Paper> a rdfs:Class ;
     rdfs:label "Paper" .
 
-<http://sdmlab3.org/Person> a rdfs:Class ;
+<http://sdmlab2.org/Person> a rdfs:Class ;
     rdfs:label "Person" .
 
-<http://sdmlab3.org/Poster> a rdfs:Class ;
+<http://sdmlab2.org/Poster> a rdfs:Class ;
     rdfs:label "Poster" ;
-    rdfs:subClassOf <http://sdmlab3.org/Paper> .
+    rdfs:subClassOf <http://sdmlab2.org/Paper> .
 
-<http://sdmlab3.org/Proceeding> a rdfs:Class ;
+<http://sdmlab2.org/Proceeding> a rdfs:Class ;
     rdfs:label "Proceeding" .
 
-<http://sdmlab3.org/Review> a rdfs:Class ;
+<http://sdmlab2.org/Review> a rdfs:Class ;
     rdfs:label "Review" .
 
-<http://sdmlab3.org/Reviewer> a rdfs:Class ;
+<http://sdmlab2.org/Reviewer> a rdfs:Class ;
     rdfs:label "Reviewer" ;
-    rdfs:subClassOf <http://sdmlab3.org/Person> .
+    rdfs:subClassOf <http://sdmlab2.org/Person> .
 
-<http://sdmlab3.org/Venue> a rdfs:Class ;
+<http://sdmlab2.org/Venue> a rdfs:Class ;
     rdfs:label "Venue" .
 
-<http://sdmlab3.org/Volume> a rdfs:Class ;
+<http://sdmlab2.org/Volume> a rdfs:Class ;
     rdfs:label "Volume" .
 
-<http://sdmlab3.org/Workshop> a rdfs:Class ;
+<http://sdmlab2.org/Workshop> a rdfs:Class ;
     rdfs:label "Workshop" ;
-    rdfs:subClassOf <http://sdmlab3.org/Conference> .
+    rdfs:subClassOf <http://sdmlab2.org/Conference> .
 
-<http://sdmlab3.org/authorName> a rdf:Property ;
+<http://sdmlab2.org/authorName> a rdf:Property ;
     rdfs:label "authorName" ;
-    rdfs:domain <http://sdmlab3.org/Author> ;
+    rdfs:domain <http://sdmlab2.org/Author> ;
     rdfs:range xsd:string .
 
-<http://sdmlab3.org/conferenceTitle> a rdf:Property ;
-    rdfs:label "conferenceTitle" ;
-    rdfs:domain <http://sdmlab3.org/Conference> ;
+<http://sdmlab2.org/confTitle> a rdf:Property ;
+    rdfs:label "confTitle" ;
+    rdfs:domain <http://sdmlab2.org/Conference> ;
     rdfs:range xsd:string .
 
-<http://sdmlab3.org/decision> a rdf:Property ;
+<http://sdmlab2.org/decision> a rdf:Property ;
     rdfs:label "decision" ;
-    rdfs:domain <http://sdmlab3.org/Review> ;
+    rdfs:domain <http://sdmlab2.org/Review> ;
     rdfs:range xsd:boolean .
 
-<http://sdmlab3.org/gives> a rdf:Property ;
+<http://sdmlab2.org/domainName> a rdf:Property ;
+    rdfs:label "domainName" ;
+    rdfs:domain <http://sdmlab2.org/Domain> ;
+    rdfs:range xsd:string .
+
+<http://sdmlab2.org/gives> a rdf:Property ;
     rdfs:label "gives" ;
-    rdfs:domain <http://sdmlab3.org/Reviewer> ;
-    rdfs:range <http://sdmlab3.org/Review> .
+    rdfs:domain <http://sdmlab2.org/Reviewer> ;
+    rdfs:range <http://sdmlab2.org/Review> .
 
-<http://sdmlab3.org/handles> a rdf:Property ;
+<http://sdmlab2.org/handles> a rdf:Property ;
     rdfs:label "handles" ;
-    rdfs:domain <http://sdmlab3.org/Editor> ;
-    rdfs:range <http://sdmlab3.org/Journal> .
+    rdfs:domain <http://sdmlab2.org/Editor> ;
+    rdfs:range <http://sdmlab2.org/Journal> .
 
-<http://sdmlab3.org/hasPaperDomain> a rdf:Property ;
+<http://sdmlab2.org/hasPaperDomain> a rdf:Property ;
     rdfs:label "hasPaperDomain" ;
-    rdfs:domain <http://sdmlab3.org/Paper> ;
-    rdfs:range <http://sdmlab3.org/Domain> .
+    rdfs:domain <http://sdmlab2.org/Paper> ;
+    rdfs:range <http://sdmlab2.org/Domain> .
 
-<http://sdmlab3.org/hasProcDomain> a rdf:Property ;
+<http://sdmlab2.org/hasProcDomain> a rdf:Property ;
     rdfs:label "hasProcDomain" ;
-    rdfs:domain <http://sdmlab3.org/Proceeding> ;
-    rdfs:range <http://sdmlab3.org/Domain> .
+    rdfs:domain <http://sdmlab2.org/Proceeding> ;
+    rdfs:range <http://sdmlab2.org/Domain> .
 
-<http://sdmlab3.org/hasVolDomain> a rdf:Property ;
+<http://sdmlab2.org/hasVolDomain> a rdf:Property ;
     rdfs:label "hasVolDomain" ;
-    rdfs:domain <http://sdmlab3.org/Volume> ;
-    rdfs:range <http://sdmlab3.org/Domain> .
+    rdfs:domain <http://sdmlab2.org/Volume> ;
+    rdfs:range <http://sdmlab2.org/Domain> .
 
-<http://sdmlab3.org/inProc> a rdf:Property ;
+<http://sdmlab2.org/inProc> a rdf:Property ;
     rdfs:label "inProc" ;
-    rdfs:domain <http://sdmlab3.org/Conference> ;
-    rdfs:range <http://sdmlab3.org/Proceedings> .
+    rdfs:domain <http://sdmlab2.org/Conference> ;
+    rdfs:range <http://sdmlab2.org/Proceeding> .
 
-<http://sdmlab3.org/isGivenTo> a rdf:Property ;
-    rdfs:domain <http://sdmlab3.org/Review> .
-
-<http://sdmlab3.org/isGivento> rdfs:label "isGivenTo" ;
-    rdfs:range <http://sdmlab3.org/Paper> .
-
-<http://sdmlab3.org/isOf> a rdf:Property ;
+<http://sdmlab2.org/inVol> a rdf:Property ;
     rdfs:label "inVol" ;
-    rdfs:domain <http://sdmlab3.org/Journal> ;
-    rdfs:range <http://sdmlab3.org/Volume> .
+    rdfs:domain <http://sdmlab2.org/Journal> ;
+    rdfs:range <http://sdmlab2.org/Volume> .
 
-<http://sdmlab3.org/isPublishedInProc> a rdf:Property ;
+<http://sdmlab2.org/isGivenTo> a rdf:Property ;
+    rdfs:domain <http://sdmlab2.org/Review> .
+
+<http://sdmlab2.org/isGivento> rdfs:label "isGivenTo" ;
+    rdfs:range <http://sdmlab2.org/Paper> .
+
+<http://sdmlab2.org/isPublishedInProc> a rdf:Property ;
     rdfs:label "isPublishedInProc" ;
-    rdfs:domain <http://sdmlab3.org/Paper> ;
-    rdfs:range <http://sdmlab3.org/Proceeding> .
+    rdfs:domain <http://sdmlab2.org/Paper> ;
+    rdfs:range <http://sdmlab2.org/Proceeding> .
 
-<http://sdmlab3.org/isPublishedInVol> a rdf:Property ;
+<http://sdmlab2.org/isPublishedInVol> a rdf:Property ;
     rdfs:label "isPublishedInVol" ;
-    rdfs:domain <http://sdmlab3.org/Paper> ;
-    rdfs:range <http://sdmlab3.org/Volume> .
+    rdfs:domain <http://sdmlab2.org/Paper> ;
+    rdfs:range <http://sdmlab2.org/Volume> .
 
-<http://sdmlab3.org/isSubmittedTo> a rdf:Property ;
+<http://sdmlab2.org/isSubmittedTo> a rdf:Property ;
     rdfs:label "isSubmittedTo" ;
-    rdfs:domain <http://sdmlab3.org/Paper> ;
-    rdfs:range <http://sdmlab3.org/Venue> .
+    rdfs:domain <http://sdmlab2.org/Paper> ;
+    rdfs:range <http://sdmlab2.org/Venue> .
 
-<http://sdmlab3.org/journalTitle> a rdf:Property ;
+<http://sdmlab2.org/journalTitle> a rdf:Property ;
     rdfs:label "journalTitle" ;
-    rdfs:domain <http://sdmlab3.org/Journal> ;
+    rdfs:domain <http://sdmlab2.org/Journal> ;
     rdfs:range xsd:string .
 
-<http://sdmlab3.org/keywords> a rdf:Property ;
-    rdfs:label "keywords" ;
-    rdfs:domain <http://sdmlab3.org/Domain> ;
-    rdfs:range xsd:string .
-
-<http://sdmlab3.org/manages> a rdf:Property ;
+<http://sdmlab2.org/manages> a rdf:Property ;
     rdfs:label "manages" ;
-    rdfs:domain <http://sdmlab3.org/Chair> ;
-    rdfs:range <http://sdmlab3.org/Conference> .
+    rdfs:domain <http://sdmlab2.org/Chair> ;
+    rdfs:range <http://sdmlab2.org/Conference> .
 
-<http://sdmlab3.org/paperTitle> a rdf:Property ;
+<http://sdmlab2.org/paperTitle> a rdf:Property ;
     rdfs:label "paperTitle" ;
-    rdfs:domain <http://sdmlab3.org/Paper> ;
+    rdfs:domain <http://sdmlab2.org/Paper> ;
     rdfs:range xsd:string .
 
-<http://sdmlab3.org/procName> a rdf:Property ;
+<http://sdmlab2.org/procName> a rdf:Property ;
     rdfs:label "procName" ;
-    rdfs:domain <http://sdmlab3.org/Proceedings> ;
+    rdfs:domain <http://sdmlab2.org/Proceeding> ;
     rdfs:range xsd:string .
 
-<http://sdmlab3.org/procYear> a rdf:Property ;
+<http://sdmlab2.org/procYear> a rdf:Property ;
     rdfs:label "procYear" ;
-    rdfs:domain <http://sdmlab3.org/Proceeding> ;
+    rdfs:domain <http://sdmlab2.org/Proceeding> ;
     rdfs:range xsd:int .
 
-<http://sdmlab3.org/reviewText> a rdf:Property ;
+<http://sdmlab2.org/reviewText> a rdf:Property ;
     rdfs:label "reviewText" ;
-    rdfs:domain <http://sdmlab3.org/Review> ;
+    rdfs:domain <http://sdmlab2.org/Review> ;
     rdfs:range xsd:string .
 
-<http://sdmlab3.org/volumeName> a rdf:Property ;
+<http://sdmlab2.org/volName> a rdf:Property ;
     rdfs:label "volName" ;
-    rdfs:domain <http://sdmlab3.org/Volume> ;
+    rdfs:domain <http://sdmlab2.org/Volume> ;
     rdfs:range xsd:string .
 
-<http://sdmlab3.org/volumeYear> a rdf:Property ;
+<http://sdmlab2.org/volYear> a rdf:Property ;
     rdfs:label "volYear" ;
-    rdfs:domain <http://sdmlab3.org/Volume> ;
+    rdfs:domain <http://sdmlab2.org/Volume> ;
     rdfs:range xsd:int .
 
-<http://sdmlab3.org/writes> a rdf:Property ;
+<http://sdmlab2.org/writes> a rdf:Property ;
     rdfs:label "writes" ;
-    rdfs:domain <http://sdmlab3.org/Author> ;
-    rdfs:range <http://sdmlab3.org/Paper> .
+    rdfs:domain <http://sdmlab2.org/Author> ;
+    rdfs:range <http://sdmlab2.org/Paper> .
 
